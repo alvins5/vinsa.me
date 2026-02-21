@@ -1,6 +1,6 @@
 # rizkyfauzan.id
 
-Personal website of Rizky Fauzan Hanif
+Personal website of Alvinsa Isnanda Putra
 
 ## 🌐 Live Site
 

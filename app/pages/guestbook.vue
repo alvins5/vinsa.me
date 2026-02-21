@@ -127,9 +127,9 @@ type SignInProvider = 'google' | 'github' | 'discord' | false
 
 // Add SEO meta
 useSeoMeta({
-    title: 'Guestbook - Rizky Fauzan Hanif',
-    description: 'Leave a message on the guestbook of Rizky Fauzan Hanif. Sign in with Google, GitHub, or Discord to share your thoughts.',
-    ogTitle: 'Guestbook - Rizky Fauzan Hanif',
+    title: 'Guestbook - Alvinsa Isnanda Putra',
+    description: 'Leave a message on the guestbook of Alvinsa Isnanda Putra. Sign in with Google, GitHub, or Discord to share your thoughts.',
+    ogTitle: 'Guestbook - Alvinsa Isnanda Putra',
     ogDescription: 'Join the conversation and leave a message on the guestbook. Connect with the community.',
     ogImage: 'https://rizkyfauzan.id/og-image.png',
 })

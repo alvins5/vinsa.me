@@ -14,9 +14,9 @@
 import { ref } from 'vue'
 
 useSeoMeta({
-    title: 'Certificates - Rizky Fauzan Hanif',
+    title: 'Certificates - Alvinsa Isnanda Putra',
     description: 'Professional certifications: MikroTik MTCNA, MTCTCE, and IPv6 Sage by Hurricane Electric. View verified networking and cybersecurity credentials.',
-    ogTitle: 'Certificates - Rizky Fauzan Hanif',
+    ogTitle: 'Certificates - Alvinsa Isnanda Putra',
     ogDescription: 'MikroTik MTCNA, MTCTCE, and IPv6 Sage certifications. Professional networking credentials and achievements.',
     ogImage: 'https://rizkyfauzan.id/og-image.png',
 })
@@ -25,20 +25,14 @@ const certificates = ref([
     {
         id: 1,
         title: "Mikrotik Certified Network Associate (MTCNA)",
-        date: "10 October 2024",
-        image: "https://ik.imagekit.io/fauzan/certificates/Sertifikat%20MTCNA%20Citraweb.png?updatedAt=1729822824599",
+        date: "24 October 2025",
+        image: "https://ik.imagekit.io/vinsa/MTCNA.png",
     },
     {
         id: 2,
         title: "Mikrotik Certified Traffic Control Engineer (MTCTCE)",
-        date: "10 October 2024",
-        image: "https://ik.imagekit.io/fauzan/certificates/Sertifikat%20MTCTCE.png?updatedAt=1729822824599",
-    },
-    {
-        id: 3,
-        title: "IPv6 Sage by Hurricane Electric",
-        date: "29 January 2025",
-        image: "https://ik.imagekit.io/fauzan/certificates/ipv6-certificate.png?updatedAt=1729822824599",
+        date: "24 October 2025",
+        image: "https://ik.imagekit.io/vinsa/MTCTCE.png",
     },
 ])
 </script>

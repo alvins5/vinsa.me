@@ -2,4 +2,4 @@ User-agent: *
 Allow: /
 
 # Sitemaps
-Sitemap: https://rizkyfauzan.id/sitemap.xml
+Sitemap: https://vinsa.me/sitemap.xml

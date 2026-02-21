@@ -1,19 +1,19 @@
 <template>
     <main class="h-full p-6 flex-col gap-8 lg:gap-24 flex lg:flex-row items-center justify-center">
-        <section aria-label="Profile Photo of Rizky Fauzan Hanif">
-            <NuxtImg src="https://assets.rizkyfauzan.id/avatar-with-bg.webp"
-                alt="Rizky Fauzan Hanif - Network Engineer and MikroTik Certified Professional"
+        <section aria-label="Profile Photo of Alvinsa Isnanda Putra">
+            <NuxtImg src="/avatar.png"
+                alt="Alvinsa Isnanda Putra - Network Engineer and MikroTik Certified Professional"
                 class="object-cover w-80 lg:w-125 aspect-square rounded-xl cursor-pointer" loading="eager" fetchpriority="high" @click="openModal" />
         </section>
-        <section class="text-center flex flex-col lg:text-left" aria-label="About Rizky Fauzan Hanif">
-            <h1 class="text-5xl lg:text-8xl font-bold tracking-tighter">Rizky Fauzan Hanif</h1>
+        <section class="text-center flex flex-col lg:text-left" aria-label="About Alvinsa Isnanda Putra">
+            <h1 class="text-5xl lg:text-8xl font-bold tracking-tighter">Alvinsa Isnanda Putra</h1>
             <h2 class="text-2xl lg:text-4xl mt-2 font-bold">Network Engineer</h2>
             <div class="flex flex-col">
                 <p
                     class="mt-12 absolute left-0 text-sm lg:text-base lg:relative w-full bottom-5 flex flex-col lg:flex-row items-center justify-between lg:gap-3 font-bold">
                     <span>Want to know more about me?</span>
                     <span class="h-px grow bg-black hidden md:block" />
-                    <RouterLink to="/about" class="group" aria-label="Learn more about Rizky Fauzan Hanif">
+                    <RouterLink to="/about" class="group" aria-label="Learn more about Alvinsa Isnanda Putra">
                         <span class="relative">
                             Learn more about me
                             <span
@@ -39,7 +39,7 @@
 
                 <!-- Modal image -->
                 <NuxtImg src="https://assets.rizkyfauzan.id/avatar-with-bg.webp"
-                    class="max-w-full max-h-[90vh] object-contain rounded-2xl" alt="Rizky Fauzan Hanif - Full size"
+                    class="max-w-full max-h-[90vh] object-contain rounded-2xl" alt="Alvinsa Isnanda Putra - Full size"
                     @click.stop />
             </div>
         </div>
@@ -48,9 +48,9 @@
 
 <script setup lang="ts">
 useSeoMeta({
-    title: 'Rizky Fauzan Hanif - Network Engineer | MikroTik MTCNA & MTCTCE Certified',
-    description: 'Rizky Fauzan Hanif is a Network Engineer specializing in MikroTik RouterOS, networking infrastructure, and cybersecurity. MTCNA & MTCTCE certified professional based in Yogyakarta, Indonesia.',
-    ogTitle: 'Rizky Fauzan Hanif - Network Engineer | MikroTik Certified',
+    title: 'Alvinsa Isnanda Putra - Network Engineer | MikroTik MTCNA & MTCTCE Certified',
+    description: 'Alvinsa Isnanda Putra is a Network Engineer specializing in MikroTik RouterOS, networking infrastructure, and cybersecurity. MTCNA & MTCTCE certified professional based in Yogyakarta, Indonesia.',
+    ogTitle: 'Alvinsa Isnanda Putra - Network Engineer | MikroTik Certified',
     ogDescription: 'Network Engineer specializing in MikroTik, networking, and cybersecurity. MTCNA & MTCTCE certified professional based in Yogyakarta, Indonesia.',
     ogImage: 'https://rizkyfauzan.id/og-image.png',
     twitterCard: 'summary_large_image',

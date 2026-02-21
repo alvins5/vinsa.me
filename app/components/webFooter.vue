@@ -46,10 +46,6 @@ const menuItems: MenuItem[] = [
         menu: "Resume",
         href: "resume",
     },
-    {
-        menu: "Notes",
-        href: "https://notes.rizkyfauzan.id",
-    },
 ]
 
 const currentQuote = ref<string>('')

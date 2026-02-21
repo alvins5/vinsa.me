@@ -7,13 +7,13 @@
 						<side-bar />
 					</div>
 					<NuxtLink to="/" class="hidden lg:flex items-center">
-						<span class="text-xl uppercase font-[Inter] font-black tracking-tighter">rizkyfauzan.id</span>
+						<span class="text-xl uppercase font-[Inter] font-black tracking-tighter">vinsa.me</span>
 					</NuxtLink>
 				</div>
 
 				<!-- Mobile -->
 				<NuxtLink to="/" class="flex lg:hidden items-center absolute left-1/2 transform -translate-x-1/2">
-					<span class="text-xl uppercase font-[Inter] font-black tracking-tighter">rizkyfauzan.id</span>
+					<span class="text-xl uppercase font-[Inter] font-black tracking-tighter">vinsa.me</span>
 				</NuxtLink>
 
 				<div class="hidden lg:flex items-center gap-4">

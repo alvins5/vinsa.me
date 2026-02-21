@@ -3,27 +3,30 @@
             class="h-full p-6 flex flex-col items-center justify-center lg:flex-row gap-8 lg:justify-end lg:items-start">
             <div class="lg:flex-4/6">
                 <h1 class="text-6xl md:text-8xl leading-[1.2] lg:-mt-4 font-[antonio] uppercase font-bold">
-                    Hi, I am Rizky Fauzan Hanif!
+                    Hi, I am Alvinsa Isnanda Putra!
                 </h1>
                 <p class="mt-6 text-xl lg:text-2xl text-justify">
-                    A passionate Network Engineer with interests in Cloud Engineering and
-                    Cybersecurity, based in Sleman, Special Region of Yogyakarta. Currently, I am a student at SMK
-                    Negeri 2 Depok Sleman. I enjoy exploring and learning new technologies such as Kubernetes, Docker,
-                    virtualization, BGP, VPNs, firewalls, traffic control, IPv6, and network security.
+                    I am a student at SMK N 2 Depok Sleman specializing in Network Engineering, 
+                    DevOps, Cloud Computing, and Linux Administration.
                 </p>
                 <p class="mt-6 text-xl lg:text-2xl text-justify">
-                    To deepen my knowledge, I have earned MikroTik Certified Network Associate (MTCNA), MikroTik
-                    Certified Traffic Control Engineer (MTCTCE), and IPv6 Sage by Hurricane Electric, as well as
-                    additional certifications in programming, cybersecurity, and cloud computing.
+                    In the field of networking, I have practical experience managing traffic and 
+                    configurations using MikroTik, including Queues, Firewall, and NAT implementations. 
+                    My expertise extends to routing and switching on Cisco devices (IOS), as well as 
+                    configuring VLANs, VPNs, and performing network troubleshooting to ensure stable connectivity.
                 </p>
                 <p class="mt-6 text-xl lg:text-2xl text-justify">
-                    I care about infrastructure that is reliable, maintainable, and scalable.
+                    Regarding DevOps and Cloud infrastructure, I am proficient in deploying web applications and 
+                    services on Virtual Machines managed via Proxmox. I manage VM lifecycles, including snapshots 
+                    and backups, and have a foundational understanding of AWS and GCP. Currently, I am expanding 
+                    my skillset in containerization with Docker and have set a roadmap to master container o
+                    rchestration (Kubernetes) and Infrastructure as Code (IaC) using OpenTofu and Ansible.
                 </p>
             </div>
             <div class="lg:flex-2/6">
-                <NuxtImg src="https://assets.rizkyfauzan.id/fauzan-history4.jpg"
+                <NuxtImg src="/alvin.webp"
                     class="object-cover rounded-xl w-full lg:h-172 aspect-3/4 cursor-pointer"
-                    alt="Rizky Fauzan Hanif" loading="eager" @click="openModal" />
+                    alt="Alvinsa Isnanda Putra" loading="eager" @click="openModal" />
             </div>
         </main>
 
@@ -40,8 +43,8 @@
                     </button>
 
                     <!-- Modal image -->
-                    <NuxtImg src="https://assets.rizkyfauzan.id/fauzan-history4.jpg" class="max-w-full max-h-[90vh] object-contain rounded-2xl"
-                        alt="Rizky Fauzan Hanif - Full size" @click.stop />
+                    <NuxtImg src="/alvin.webp" class="max-w-full max-h-[90vh] object-contain rounded-2xl"
+                        alt="Alvinsa Isnanda Putra - Full size" @click.stop />
                 </div>
             </div>
         </Teleport>
@@ -51,9 +54,9 @@
 import { ref, onMounted, onUnmounted } from 'vue'
 
 useSeoMeta({
-    title: 'About - Rizky Fauzan Hanif',
-    description: 'Learn about Rizky Fauzan Hanif, a passionate Network Engineer specializing in MikroTik, cloud engineering, and cybersecurity with MTCNA, MTCTCE, and IPv6 Sage certifications.',
-    ogTitle: 'About - Rizky Fauzan Hanif',
+    title: 'About - Alvinsa Isnanda Putra',
+    description: 'Learn about Alvinsa Isnanda Putra, a passionate Network Engineer specializing in MikroTik, cloud engineering, and cybersecurity with MTCNA, MTCTCE, and IPv6 Sage certifications.',
+    ogTitle: 'About - Alvinsa Isnanda Putra',
     ogDescription: 'Passionate Network Engineer with expertise in Kubernetes, Docker, BGP, VPNs, firewalls, and network security. Based in Yogyakarta, Indonesia.',
     ogImage: 'https://rizkyfauzan.id/og-image.png',
 })

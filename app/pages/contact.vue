@@ -26,13 +26,13 @@
                     </div>
                     <div class="min-w-0 flex-1">
                         <h3 class="text-lg font-bold text-black group-hover:text-gray-800">Email</h3>
-                        <p class="text-gray-600 text-sm">contact@rizkyfauzan.id</p>
+                        <p class="text-gray-600 text-sm">alvinsa.i.p@gmail.com</p>
                     </div>
                 </div>
             </a>
 
             <!-- LinkedIn -->
-            <a href="https://www.linkedin.com/in/rizky-fauzan-hanif" target="_blank" rel="noopener noreferrer"
+            <a href="https://www.linkedin.com/in/alvinsa-isnanda-putra" target="_blank" rel="noopener noreferrer"
                 class="bg-white border border-gray-200 rounded-lg p-6 hover:shadow-lg transition-all duration-300 group w-full sm:w-80 flex items-center">
                 <div class="flex items-center space-x-4">
                     <div class="shrink-0 relative">
@@ -41,43 +41,13 @@
                     </div>
                     <div class="min-w-0 flex-1">
                         <h3 class="text-lg font-bold text-black group-hover:text-gray-800">LinkedIn</h3>
-                        <p class="text-gray-600 text-sm">rizky-fauzan-hanif</p>
-                    </div>
-                </div>
-            </a>
-
-            <!-- X (Twitter) -->
-            <a href="https://x.com/rizkyfauzanid" target="_blank" rel="noopener noreferrer"
-                class="bg-white border border-gray-200 rounded-lg p-6 hover:shadow-lg transition-all duration-300 group w-full sm:w-80 flex items-center">
-                <div class="flex items-center space-x-4">
-                    <div class="shrink-0">
-                        <Icon name="simple-icons:x" size="24"
-                            class="text-black/60 group-hover:text-black transition-colors" />
-                    </div>
-                    <div class="min-w-0 flex-1">
-                        <h3 class="text-lg font-bold text-black group-hover:text-gray-800">X (Twitter)</h3>
-                        <p class="text-gray-600 text-sm">@rizkyfauzanid</p>
-                    </div>
-                </div>
-            </a>
-
-            <!-- Bluesky -->
-            <a href="https://bsky.app/profile/rizkyfauzan.id" target="_blank" rel="noopener noreferrer"
-                class="bg-white border border-gray-200 rounded-lg p-6 hover:shadow-lg transition-all duration-300 group w-full sm:w-80 flex items-center">
-                <div class="flex items-center space-x-4">
-                    <div class="shrink-0">
-                        <Icon name="simple-icons:bluesky" size="24"
-                            class="text-black/60 group-hover:text-black transition-colors" />
-                    </div>
-                    <div class="min-w-0 flex-1">
-                        <h3 class="text-lg font-bold text-black group-hover:text-gray-800">Bluesky</h3>
-                        <p class="text-gray-600 text-sm">rizkyfauzan.id</p>
+                        <p class="text-gray-600 text-sm">alvinsa isnanda putra</p>
                     </div>
                 </div>
             </a>
 
             <!-- Instagram -->
-            <a href="https://instagram.com/rizkyfauzan.id" target="_blank" rel="noopener noreferrer"
+            <a href="https://instagram.com/kaedehara_vins" target="_blank" rel="noopener noreferrer"
                 class="bg-white border border-gray-200 rounded-lg p-6 hover:shadow-lg transition-all duration-300 group w-full sm:w-80 flex items-center">
                 <div class="flex items-center space-x-4">
                     <div class="shrink-0">
@@ -86,13 +56,13 @@
                     </div>
                     <div class="min-w-0 flex-1">
                         <h3 class="text-lg font-bold text-black group-hover:text-gray-800">Instagram</h3>
-                        <p class="text-gray-600 text-sm">@rizkyfauzan.id</p>
+                        <p class="text-gray-600 text-sm">@kaedehara_vins</p>
                     </div>
                 </div>
             </a>
 
             <!-- Telegram -->
-            <a href="https://t.me/rizkyfauzanid" target="_blank" rel="noopener noreferrer"
+            <a href="https://t.me/vinsame" target="_blank" rel="noopener noreferrer"
                 class="bg-white border border-gray-200 rounded-lg p-6 hover:shadow-lg transition-all duration-300 group w-full sm:w-80 flex items-center">
                 <div class="flex items-center space-x-4">
                     <div class="shrink-0">
@@ -101,7 +71,7 @@
                     </div>
                     <div class="min-w-0 flex-1">
                         <h3 class="text-lg font-bold text-black group-hover:text-gray-800">Telegram</h3>
-                        <p class="text-gray-600 text-sm">@rizkyfauzanid</p>
+                        <p class="text-gray-600 text-sm">@vinsame</p>
                     </div>
                 </div>
             </a>
@@ -147,10 +117,10 @@ import { ref, onMounted, computed, type Ref, type ComputedRef } from 'vue'
 import type { DiscordActivity } from '~/utils/discord'
 
 useSeoMeta({
-    title: 'Contact - Rizky Fauzan Hanif',
-    description: 'Get in touch with Rizky Fauzan Hanif via email, LinkedIn, Twitter, Discord, or Telegram. Network Engineer available for opportunities and collaborations.',
-    ogTitle: 'Contact - Rizky Fauzan Hanif',
-    ogDescription: 'Connect with Rizky Fauzan Hanif - Network Engineer. Available via email, LinkedIn, Twitter, Discord, and Telegram.',
+    title: 'Contact - Alvinsa Isnanda Putra',
+    description: 'Get in touch with Alvinsa Isnanda Putra via email, LinkedIn, Twitter, Discord, or Telegram. Network Engineer available for opportunities and collaborations.',
+    ogTitle: 'Contact - Alvinsa Isnanda Putra',
+    ogDescription: 'Connect with Alvinsa Isnanda Putra - Network Engineer. Available via email, LinkedIn, Twitter, Discord, and Telegram.',
     ogImage: 'https://rizkyfauzan.id/og-image.png',
 })
 
@@ -163,8 +133,8 @@ const discordActivities: Ref<DiscordActivity[]> = ref([])
 const isLoadingStatus: Ref<boolean> = ref(true)
 
 // Discord user ID
-const DISCORD_USER_ID = '536379400686665778'
-const DISCORD_USERNAME = 'fzzzn_'
+const DISCORD_USER_ID = '874647599431438396'
+const DISCORD_USERNAME = 'vinsa27'
 
 // Function to copy Discord username
 const copyDiscord = async (): Promise<void> => {

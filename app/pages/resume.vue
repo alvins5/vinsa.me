@@ -431,10 +431,10 @@ definePageMeta({
 })
 
 useSeoMeta({
-    title: 'Resume - Rizky Fauzan Hanif',
-    description: 'Professional resume of Rizky Fauzan Hanif',
-    ogTitle: 'Resume - Rizky Fauzan Hanif',
-    ogDescription: 'Professional resume of Rizky Fauzan Hanif',
+    title: 'Resume - Alvinsa Isnanda Putra',
+    description: 'Professional resume of Alvinsa Isnanda Putra',
+    ogTitle: 'Resume - Alvinsa Isnanda Putra',
+    ogDescription: 'Professional resume of Alvinsa Isnanda Putra',
 })
 
 const route = useRoute()
@@ -475,7 +475,7 @@ const toggleLanguage = (): void => {
 const translations: Translations = {
     en: {
         personalInfo: {
-            name: 'Rizky Fauzan Hanif',
+            name: 'Alvinsa Isnanda Putra',
             title: 'Network Engineer',
             location: 'Sleman, Yogyakarta, Indonesia',
         },
@@ -490,7 +490,7 @@ const translations: Translations = {
             contact: 'Contact',
         },
         aboutMe: [
-            "I'm Rizky Fauzan Hanif, a passionate Network Engineer with interests in Cloud Computing and DevOps, based in Sleman, Special Region of Yogyakarta. Currently, I am a student at SMK Negeri 2 Depok Sleman. I enjoy exploring and learning new technologies such as Kubernetes, Docker, virtualization, BGP, VPNs, firewalls, traffic control, IPv6, and network security.",
+            "I'm Alvinsa Isnanda Putra, a passionate Network Engineer with interests in Cloud Computing and DevOps, based in Sleman, Special Region of Yogyakarta. Currently, I am a student at SMK Negeri 2 Depok Sleman. I enjoy exploring and learning new technologies such as Kubernetes, Docker, virtualization, BGP, VPNs, firewalls, traffic control, IPv6, and network security.",
             "I have earned MikroTik Certified Network Associate (MTCNA), MikroTik Certified Traffic Control Engineer (MTCTCE), and IPv6 Sage by Hurricane Electric, as well as additional certifications in programming, cybersecurity, and cloud computing.",
             "I care about infrastructure that is reliable, maintainable, and scalable."
         ],
@@ -642,7 +642,7 @@ const translations: Translations = {
     },
     id: {
         personalInfo: {
-            name: 'Rizky Fauzan Hanif',
+            name: 'Alvinsa Isnanda Putra',
             title: 'Network Engineer',
             location: 'Sleman, Yogyakarta, Indonesia',
         },
@@ -657,7 +657,7 @@ const translations: Translations = {
             contact: 'Kontak',
         },
         aboutMe: [
-            "Saya Rizky Fauzan Hanif, seorang Network Engineer yang memiliki minat pada Cloud Computing dan DevOps, berbasis di Sleman, Daerah Istimewa Yogyakarta. Saya siswa program studi Sistem Informasi Jaringan dan Aplikasi (SIJA) di SMK Negeri 2 Depok Sleman. Saya senang mengeksplorasi dan mempelajari teknologi baru seperti Kubernetes, Docker, virtualisasi, BGP, VPN, firewall, traffic control, IPv6, dan keamanan jaringan.",
+            "Saya Alvinsa Isnanda Putra, seorang Network Engineer yang memiliki minat pada Cloud Computing dan DevOps, berbasis di Sleman, Daerah Istimewa Yogyakarta. Saya siswa program studi Sistem Informasi Jaringan dan Aplikasi (SIJA) di SMK Negeri 2 Depok Sleman. Saya senang mengeksplorasi dan mempelajari teknologi baru seperti Kubernetes, Docker, virtualisasi, BGP, VPN, firewall, traffic control, IPv6, dan keamanan jaringan.",
             "Saya telah memperoleh MikroTik Certified Network Associate (MTCNA), MikroTik Certified Traffic Control Engineer (MTCTCE), dan IPv6 Sage oleh Hurricane Electric, serta sertifikasi tambahan dalam pemrograman, keamanan siber, dan cloud computing.",
             "Saya peduli terhadap infrastruktur yang andal, dapat dipelihara, dan skalabel."
         ],
