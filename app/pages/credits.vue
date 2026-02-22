@@ -18,10 +18,10 @@
 
 <script setup lang="ts">
 useSeoMeta({
-    title: 'Credits - Rizky Fauzan Hanif',
-    description: 'Professional certifications: MikroTik MTCNA, MTCTCE, and IPv6 Sage by Hurricane Electric. View verified networking and cybersecurity credentials.',
-    ogTitle: 'Credits - Rizky Fauzan Hanif',
-    ogDescription: 'MikroTik MTCNA, MTCTCE, and IPv6 Sage certifications. Professional networking credentials and achievements.',
-    ogImage: 'https://rizkyfauzan.id/og-image.png',
+    title: 'Credits - Alvinsa Isnanda Putra',
+    description: 'Professional certifications: MikroTik MTCNA and MTCTCE. View verified networking credentials.',
+    ogTitle: 'Credits - Alvinsa Isnanda Putra',
+    ogDescription: 'Network Engineer specializing in MikroTik and networking. MTCNA & MTCTCE certified professional based in Yogyakarta, Indonesia.',
+    ogImage: 'https://vinsa.me/og-image.png',
 })
 </script>

@@ -21,10 +21,10 @@ import { ref } from 'vue'
 
 useSeoMeta({
     title: 'Achievements - Alvinsa Isnanda Putra',
-    description: '1st Place MikroTik Networking Olympiad 2024, 3rd Place LKS ITNSA DIY Province 2024. Explore professional achievements and milestones of Alvinsa Isnanda Putra.',
+    description: '3rd Place MikroTik Networking Olympiad 2025, 3rd Place LKS Cloud Computing DIY Province 2024. Explore professional achievements and milestones of Alvinsa Isnanda Putra.',
     ogTitle: 'Achievements - Alvinsa Isnanda Putra',
-    ogDescription: 'Competition wins and professional milestones including 1st Place MikroTik Networking Olympiad and LKS ITNSA achievements.',
-    ogImage: 'https://rizkyfauzan.id/og-image.png',
+    ogDescription: 'Competition wins and professional milestones including 3rd Place MikroTik Networking Olympiad and LKS Cloud Computing achievements.',
+    ogImage: '/og-image.png',
 })
 
 const achievements = ref([

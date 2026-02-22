@@ -118,10 +118,10 @@ import type { DiscordActivity } from '~/utils/discord'
 
 useSeoMeta({
     title: 'Contact - Alvinsa Isnanda Putra',
-    description: 'Get in touch with Alvinsa Isnanda Putra via email, LinkedIn, Twitter, Discord, or Telegram. Network Engineer available for opportunities and collaborations.',
+    description: 'Get in touch with Alvinsa Isnanda Putra via email, LinkedIn, Instagram, Discord, or Telegram. Network Engineer available for opportunities and collaborations.',
     ogTitle: 'Contact - Alvinsa Isnanda Putra',
-    ogDescription: 'Connect with Alvinsa Isnanda Putra - Network Engineer. Available via email, LinkedIn, Twitter, Discord, and Telegram.',
-    ogImage: 'https://rizkyfauzan.id/og-image.png',
+    ogDescription: 'Connect with Alvinsa Isnanda Putra - Network Engineer. Available via email, LinkedIn, Instagram, Discord, and Telegram.',
+    ogImage: 'https://vinsa.me/og-image.png',
 })
 
 // Toast state

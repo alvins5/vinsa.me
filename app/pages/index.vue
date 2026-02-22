@@ -53,11 +53,10 @@
 <script setup lang="ts">
 useSeoMeta({
     title: 'Alvinsa Isnanda Putra - Network Engineer | MikroTik MTCNA & MTCTCE Certified',
-    description: 'Alvinsa Isnanda Putra is a Network Engineer specializing in MikroTik RouterOS, networking infrastructure, and cybersecurity. MTCNA & MTCTCE certified professional based in Yogyakarta, Indonesia.',
+    description: 'Alvinsa Isnanda Putra a passionate Network Engineer specializing in MikroTik, cloud engineering, with MTCNA and MTCTCE',
     ogTitle: 'Alvinsa Isnanda Putra - Network Engineer | MikroTik Certified',
-    ogDescription: 'Network Engineer specializing in MikroTik, networking, and cybersecurity. MTCNA & MTCTCE certified professional based in Yogyakarta, Indonesia.',
-    ogImage: 'https://rizkyfauzan.id/og-image.png',
-    twitterCard: 'summary_large_image',
+    ogDescription: 'Network Engineer specializing in MikroTik and networking. MTCNA & MTCTCE certified professional based in Yogyakarta, Indonesia.',
+    ogImage: 'https://vinsa.me/og-image.png',
 })
 
 useHead({

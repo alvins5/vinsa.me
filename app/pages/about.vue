@@ -7,7 +7,7 @@
             </h1>
             <p class="mt-6 text-xl lg:text-2xl text-justify">
                 I am a student at SMK N 2 Depok Sleman specializing in Network Engineering, 
-                    DevOps, Cloud Computing, and Linux Administration.
+                DevOps, Cloud Computing, and Linux Administration.
             </p>
             <p class="mt-6 text-xl lg:text-2xl text-justify">
                 In the field of networking, I have practical experience managing traffic and 
@@ -43,11 +43,14 @@
                         </button>
 
                     <!-- Modal image -->
-                    <NuxtImg src="https://assets.rizkyfauzan.id/fauzan-history4.jpg" class="max-w-full max-h-[90vh] object-contain rounded-2xl"
+                    <NuxtImg src="/alvin.webp" class="max-w-full max-h-[90vh] object-contain rounded-2xl"
                         alt="Rizky Fauzan Hanif - Full size" @click.stop />
+                    </div>
                 </div>
-            </div>
-        </Teleport>
+            </Teleport>
+        </ClientOnly>
+    </div>
+    </div>
 </template>
 
 <script setup lang="ts">
@@ -55,10 +58,10 @@ import { ref, onMounted, onUnmounted } from 'vue'
 
 useSeoMeta({
     title: 'About - Alvinsa Isnanda Putra',
-    description: 'Learn about Alvinsa Isnanda Putra, a passionate Network Engineer specializing in MikroTik, cloud engineering, and cybersecurity with MTCNA, MTCTCE, and IPv6 Sage certifications.',
+    description: 'Learn about Alvinsa Isnanda Putra, a passionate Network Engineer specializing in MikroTik, cloud engineering, with MTCNA and MTCTCE',
     ogTitle: 'About - Alvinsa Isnanda Putra',
-    ogDescription: 'Passionate Network Engineer with expertise in Kubernetes, Docker, BGP, VPNs, firewalls, and network security. Based in Yogyakarta, Indonesia.',
-    ogImage: 'https://rizkyfauzan.id/og-image.png',
+    ogDescription: 'Network & System Administrator based in Yogyakarta. Specialized in MikroTik (MTCNA, MTCTCE), Linux Servers, Docker, and Cloud Infrastructure.',
+    ogImage: 'https://vinsa.me/og-image.png',
 })
 
 const isModalOpen = ref(false)

@@ -15,10 +15,10 @@ import { ref } from 'vue'
 
 useSeoMeta({
     title: 'Certificates - Alvinsa Isnanda Putra',
-    description: 'Professional certifications: MikroTik MTCNA, MTCTCE, and IPv6 Sage by Hurricane Electric. View verified networking and cybersecurity credentials.',
+    description: 'Professional certifications: MikroTik MTCNA and MTCTCE. View verified networking credentials.',
     ogTitle: 'Certificates - Alvinsa Isnanda Putra',
-    ogDescription: 'MikroTik MTCNA, MTCTCE, and IPv6 Sage certifications. Professional networking credentials and achievements.',
-    ogImage: 'https://rizkyfauzan.id/og-image.png',
+    ogDescription: 'MikroTik MTCNA and, MTCTCE. Professional networking credentials and achievements.',
+    ogImage: '/og-image.png',
 })
 
 const certificates = ref([
