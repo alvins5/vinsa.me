@@ -25,7 +25,7 @@
             <!-- Source Code -->
             <!-- <div class="flex justify-center">
                 <a
-href="https://github.com/fzzzn/rizkyfauzan.id" target="_blank" rel="noopener noreferrer"
+href="https://github.com/fzzzn/vinsa.site" target="_blank" rel="noopener noreferrer"
                     class="text-xs hover:text-black transition-colors duration-200 flex items-center gap-1.5">
                     <Icon name="mdi:github" size="14" />
                     <span>Source Code</span>

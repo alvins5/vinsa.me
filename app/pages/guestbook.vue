@@ -131,7 +131,7 @@ useSeoMeta({
     description: 'Leave a message on the guestbook of Alvinsa Isnanda Putra. Sign in with Google, GitHub, or Discord to share your thoughts.',
     ogTitle: 'Guestbook - Alvinsa Isnanda Putra',
     ogDescription: 'Join the conversation and leave a message on the guestbook. Connect with the community.',
-    ogImage: 'https://vinsa.me/og-image.png',
+    ogImage: 'https://vinsa.site/og-image.png',
 })
 
 // Reactive data

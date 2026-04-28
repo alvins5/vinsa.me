@@ -21,15 +21,15 @@ useHead({
         lang: 'en',
     },
     meta: [
-        { property: 'og:image', content: 'https://rizkyfauzan.id/og-image.png' },
+        { property: 'og:image', content: 'https://vinsa.site/og-image.png' },
         { property: 'og:image:width', content: '1200' },
         { property: 'og:image:height', content: '630' },
         { property: 'og:image:type', content: 'image/png' },
-        { name: 'twitter:image', content: 'https://rizkyfauzan.id/og-image.png' },
+        { name: 'twitter:image', content: 'https://vinsa.site/og-image.png' },
         { name: 'twitter:card', content: 'summary_large_image' },
     ],
     link: [
-        { rel: 'canonical', href: 'https://rizkyfauzan.id' },
+        { rel: 'canonical', href: 'https://vinsa.site' },
     ],
 })
 </script>

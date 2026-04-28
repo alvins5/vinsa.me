@@ -42,5 +42,12 @@ const achievements = ref([
         date: "2024",
         image: "https://ik.imagekit.io/vinsa/LKSCCDIY25.jpeg",
     },
+    {
+        id: 3,
+        title: "3rd Place in the 2026 DIY Province ITNSA LKS",
+        // description: "",
+        date: "2026",
+        image: "https://ik.imagekit.io/vinsa/LKSITNSADIY2026.jpeg",
+    },
 ])
 </script>

@@ -22,6 +22,6 @@ useSeoMeta({
     description: 'Professional certifications: MikroTik MTCNA and MTCTCE. View verified networking credentials.',
     ogTitle: 'Credits - Alvinsa Isnanda Putra',
     ogDescription: 'Network Engineer specializing in MikroTik and networking. MTCNA & MTCTCE certified professional based in Yogyakarta, Indonesia.',
-    ogImage: 'https://vinsa.me/og-image.png',
+    ogImage: 'https://vinsa.site/og-image.png',
 })
 </script>

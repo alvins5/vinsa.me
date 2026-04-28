@@ -1,10 +1,10 @@
-# rizkyfauzan.id
+# vinsa.site
 
 Personal website of Alvinsa Isnanda Putra
 
 ## 🌐 Live Site
 
-Visit: **[rizkyfauzan.id](https://rizkyfauzan.id)**
+Visit: **[vinsa.site](https://vinsa.site)**
 
 ## ✨ Features
 
@@ -38,8 +38,8 @@ Visit: **[rizkyfauzan.id](https://rizkyfauzan.id)**
 
 ```bash
 # Clone the repository
-git clone https://github.com/fzzzn/rizkyfauzan.id
-cd rizkyfauzan.id
+git clone https://github.com/fzzzn/vinsa.site
+cd vinsa.site
 
 # Install dependencies
 npm install
@@ -112,7 +112,7 @@ When deploying to Cloudflare Pages, add your Supabase credentials as secrets via
 ## 📁 Project Structure
 
 ```
-rizkyfauzan.id/
+vinsa.site/
 ├── app/
 │   ├── assets/css/          # Global styles
 │   ├── components/          # Reusable Vue components

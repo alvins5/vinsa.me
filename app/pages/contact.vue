@@ -17,7 +17,7 @@
         <!-- Contact Cards -->
         <div class="flex flex-wrap justify-center gap-6 mb-12">
             <!-- Email -->
-            <a href="mailto:contact@rizkyfauzan.id"
+            <a href="mailto:contact@vinsa.site"
                 class="bg-white border border-gray-200 rounded-lg p-6 hover:shadow-lg transition-all duration-300 group w-full sm:w-80 flex items-center">
                 <div class="flex items-center space-x-4">
                     <div class="shrink-0">
@@ -121,7 +121,7 @@ useSeoMeta({
     description: 'Get in touch with Alvinsa Isnanda Putra via email, LinkedIn, Instagram, Discord, or Telegram. Network Engineer available for opportunities and collaborations.',
     ogTitle: 'Contact - Alvinsa Isnanda Putra',
     ogDescription: 'Connect with Alvinsa Isnanda Putra - Network Engineer. Available via email, LinkedIn, Instagram, Discord, and Telegram.',
-    ogImage: 'https://vinsa.me/og-image.png',
+    ogImage: 'https://vinsa.site/og-image.png',
 })
 
 // Toast state

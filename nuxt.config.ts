@@ -31,11 +31,6 @@ export default defineNuxtConfig({
   features: {
     inlineStyles: true,
   },
-  umami: {
-    id: "4819c176-2490-4516-88a2-ecbf77ff2ea2",
-    host: "https://u.zxn.my.id",
-    autoTrack: true,
-  },
   fonts: {
     defaults: {
       weights: [400],
@@ -87,8 +82,6 @@ export default defineNuxtConfig({
         { name: "msapplication-TileColor", content: "#ffffff" },
       ],
       link: [
-        { rel: "preconnect", href: "https://u.zxn.my.id", crossorigin: "anonymous" },
-        { rel: "dns-prefetch", href: "https://u.zxn.my.id" },
         { rel: "preconnect", href: "https://ik.imagekit.io", crossorigin: "anonymous" },
         { rel: "dns-prefetch", href: "https://ik.imagekit.io" },
         { rel: "icon", type: "image/svg+xml", href: "/favicon.svg" },
@@ -100,7 +93,7 @@ export default defineNuxtConfig({
     pageTransition: { name: "page", mode: "out-in" },
   },
   site: {
-    url: "https://rizkyfauzan.id",
+    url: "https://vinsa.site",
     name: "Alvinsa Isnanda Putra",
     description: "Network Engineer specializing in MikroTik, networking, and cybersecurity. MTCNA & MTCTCE certified.",
     defaultLocale: "en",
@@ -117,24 +110,21 @@ export default defineNuxtConfig({
   },
   robots: {
     allow: "/",
-    sitemap: "https://rizkyfauzan.id/sitemap.xml",
+    sitemap: "https://vinsa.site/sitemap.xml",
   },
   seo: {
     meta: {
       title: "Alvinsa Isnanda Putra - Network Engineer",
       description: "Network Engineer specializing in MikroTik, networking, and cybersecurity. MTCNA & MTCTCE certified professional based in Yogyakarta, Indonesia.",
-      twitterCard: "summary_large_image",
-      twitterSite: "@fzzznh",
-      twitterCreator: "@fzzznh",
       author: "Alvinsa Isnanda Putra",
       applicationName: "Alvinsa Isnanda Putra",
       ogSiteName: "Alvinsa Isnanda Putra",
       ogLocale: "en_US",
       ogType: "website",
-      ogUrl: "https://rizkyfauzan.id",
+      ogUrl: "https://vinsa.site",
       ogTitle: "Alvinsa Isnanda Putra - Network Engineer",
       ogDescription: "Network Engineer specializing in MikroTik, networking, and cybersecurity. MTCNA & MTCTCE certified professional based in Yogyakarta, Indonesia.",
-      ogImage: "https://rizkyfauzan.id/og-image.png",
+      ogImage: "https://vinsa.site/og-image.png",
       robots: "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
       keywords: "Alvinsa Isnanda Putra, Network Engineer, MikroTik, MTCNA, MTCTCE, IPv6, Networking, Cybersecurity, Indonesia, Yogyakarta, Cloud Engineer",
     },
@@ -142,26 +132,23 @@ export default defineNuxtConfig({
   schemaOrg: {
     identity: definePerson({
       name: "Alvinsa Isnanda Putra",
-      givenName: "Rizky",
-      familyName: "Hanif",
-      additionalName: "Fauzan",
+      givenName: "Alvinsa",
+      familyName: "Isnanda",
+      additionalName: "Alvinsa",
       description: "Network Engineer specializing in MikroTik, networking, and cybersecurity with MTCNA and MTCTCE certifications.",
       jobTitle: "Network Engineer",
-      email: "contact@rizkyfauzan.id",
-      url: "https://rizkyfauzan.id",
-      image: "https://rizkyfauzan.id/avatar-with-bg.webp",
+      email: "alvinsa.i.p@gmail.com",
+      url: "https://vinsa.site",
+      image: "https://vinsa.site/avatar-with-bg.webp",
       sameAs: [
-        "https://x.com/rizkyfauzanid",
         "https://github.com/fzzzn",
-        "https://linkedin.com/in/rizky-fauzan-hanif",
-        "https://instagram.com/rizkyfauzan.id",
-        "https://bsky.app/profile/rizkyfauzan.id",
-        "https://t.me/rizkyfauzanid",
+        "https://linkedin.com/in/alvinsa-isnanda-putra",
+        "https://instagram.com/kaedehara_vins",
+        "https://t.me/vinsame",
       ],
       knowsAbout: [
         "MikroTik RouterOS",
         "Network Engineering",
-        "Cybersecurity",
         "IPv6",
         "Cloud Computing",
         "Linux Administration",

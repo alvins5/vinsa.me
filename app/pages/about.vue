@@ -6,26 +6,19 @@
                 Hi, I am Alvinsa Isnanda Putra!
             </h1>
             <p class="mt-6 text-xl lg:text-2xl text-justify">
-                I am a student at SMK N 2 Depok Sleman specializing in Network Engineering, 
-                DevOps, Cloud Computing, and Linux Administration.
+                I am Alvinsa Isnanda Putra, a tech enthusiast based in Sleman, Yogyakarta, with a passion
+                for system administration, networking, DevOps, and cloud computing. I am a student of 
+                Information Systems, Networking, and Applications at SMKN 2 Depok Sleman.
             </p>
             <p class="mt-6 text-xl lg:text-2xl text-justify">
-                In the field of networking, I have practical experience managing traffic and 
-                configurations using MikroTik, including Queues, Firewall, and NAT implementations. 
-                My expertise extends to routing and switching on Cisco devices (IOS), as well as 
-                configuring VLANs, VPNs, and performing network troubleshooting to ensure stable connectivity.
-            </p>
-            <p class="mt-6 text-xl lg:text-2xl text-justify">
-                Regarding DevOps and Cloud infrastructure, I am proficient in deploying web applications and 
-                services on Virtual Machines managed via Proxmox. I manage VM lifecycles, including snapshots 
-                and backups, and have a foundational understanding of AWS and GCP. Currently, I am expanding 
-                my skillset in containerization with Docker and have set a roadmap to master container o
-                rchestration (Kubernetes) and Infrastructure as Code (IaC) using OpenTofu and Ansible.
+                I have obtained the MikroTik Certified Network Associate (MTCNA) and MikroTik Certified
+                Traffic Control Engineer (MTCTCE) certifications, and I have won several competitions 
+                in sysadmin, networking, and cloud computing.
             </p>
         </div>
         <div class="lg:flex-2/6">
             <NuxtImg src="/alvin.webp"
-                class="object-cover rounded-xl w-full lg:h-172 aspect-3/4 cursor-pointer lg:grayscale lg:hover:grayscale-0 transition-all duration-200" alt="Alvinsa Isnanda Putra"
+                class="object-cover rounded-xl w-120 lg:h-130 aspect-3/4 cursor-pointer lg:grayscale lg:hover:grayscale-0 transition-all duration-200" alt="Alvinsa Isnanda Putra"
                 loading="eager" @click="openModal" />
         </div>
 
@@ -61,7 +54,7 @@ useSeoMeta({
     description: 'Learn about Alvinsa Isnanda Putra, a passionate Network Engineer specializing in MikroTik, cloud engineering, with MTCNA and MTCTCE',
     ogTitle: 'About - Alvinsa Isnanda Putra',
     ogDescription: 'Network & System Administrator based in Yogyakarta. Specialized in MikroTik (MTCNA, MTCTCE), Linux Servers, Docker, and Cloud Infrastructure.',
-    ogImage: 'https://vinsa.me/og-image.png',
+    ogImage: 'https://vinsa.site/og-image.png',
 })
 
 const isModalOpen = ref(false)
