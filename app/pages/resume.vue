@@ -690,8 +690,8 @@ const contactInfo: ContactInfo[] = [
     },
     {
         title: 'Email',
-        link: 'mailto:contact@vinsa.site',
-        displayText: 'contact@vinsa.site'
+        link: 'mailto:mail@vinsa.site',
+        displayText: 'mail@vinsa.site'
     },
     {
         title: 'LinkedIn',

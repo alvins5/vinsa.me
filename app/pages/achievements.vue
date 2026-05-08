@@ -37,9 +37,9 @@ const achievements = ref([
     },
     {
         id: 2,
-        title: "3rd Place in the 2024 DIY Province Cloud Computing LKS",
+        title: "3rd Place in the 2025 DIY Province Cloud Computing LKS",
         // description: "",
-        date: "2024",
+        date: "2025",
         image: "https://ik.imagekit.io/vinsa/LKSCCDIY25.jpeg",
     },
     {

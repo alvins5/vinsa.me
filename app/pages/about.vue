@@ -18,7 +18,7 @@
         </div>
         <div class="lg:flex-2/6">
             <NuxtImg src="/alvin.webp"
-                class="object-cover rounded-xl w-120 lg:h-130 aspect-3/4 cursor-pointer lg:grayscale lg:hover:grayscale-0 transition-all duration-200" alt="Alvinsa Isnanda Putra"
+                class="object-cover rounded-xl w-120  lg:h-130 aspect-3/4 cursor-pointer lg:grayscale lg:hover:grayscale-0 transition-all duration-200" alt="Alvinsa Isnanda Putra"
                 loading="eager" @click="openModal" />
         </div>
 
