@@ -38,7 +38,7 @@ Visit: **[vinsa.site](https://vinsa.site)**
 
 ```bash
 # Clone the repository
-git clone https://github.com/fzzzn/vinsa.site
+git clone https://github.com/alvins5/vinsa.site
 cd vinsa.site
 
 # Install dependencies
